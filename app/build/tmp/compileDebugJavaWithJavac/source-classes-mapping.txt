@@ -1,0 +1,64 @@
+com/example/multiplerestaurantsstaffapp/ui/gallery/GalleryViewModel.java
+ com.example.multiplerestaurantsstaffapp.ui.gallery.GalleryViewModel
+com/example/multiplerestaurantsstaffapp/Model/RestaurantOwner.java
+ com.example.multiplerestaurantsstaffapp.Model.RestaurantOwner
+com/example/multiplerestaurantsstaffapp/databinding/FragmentGalleryBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.FragmentGalleryBinding
+com/example/multiplerestaurantsstaffapp/databinding/ActivityStartBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.ActivityStartBinding
+com/example/multiplerestaurantsstaffapp/databinding/FragmentSlideshowBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.FragmentSlideshowBinding
+com/example/multiplerestaurantsstaffapp/Retrofit/RetrofitClient.java
+ com.example.multiplerestaurantsstaffapp.Retrofit.RetrofitClient
+com/example/multiplerestaurantsstaffapp/ui/home/HomeViewModel.java
+ com.example.multiplerestaurantsstaffapp.ui.home.HomeViewModel
+com/example/multiplerestaurantsstaffapp/Model/UpdateRestaurantOwnerModel.java
+ com.example.multiplerestaurantsstaffapp.Model.UpdateRestaurantOwnerModel
+com/example/multiplerestaurantsstaffapp/ui/gallery/GalleryFragment.java
+ com.example.multiplerestaurantsstaffapp.ui.gallery.GalleryFragment
+ com.example.multiplerestaurantsstaffapp.ui.gallery.GalleryFragment$1
+com/example/multiplerestaurantsstaffapp/databinding/PhoneAuthBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.PhoneAuthBinding
+com/example/multiplerestaurantsstaffapp/databinding/LoginMethodsFirebaseUiBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.LoginMethodsFirebaseUiBinding
+com/example/multiplerestaurantsstaffapp/databinding/ActivityEnterIPAddressBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.ActivityEnterIPAddressBinding
+com/example/multiplerestaurantsstaffapp/Model/RestaurantOwnerModel.java
+ com.example.multiplerestaurantsstaffapp.Model.RestaurantOwnerModel
+com/example/multiplerestaurantsstaffapp/databinding/ActivityMainBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.ActivityMainBinding
+com/example/multiplerestaurantsstaffapp/Retrofit/IMyRestaurantAPI.java
+ com.example.multiplerestaurantsstaffapp.Retrofit.IMyRestaurantAPI
+com/example/multiplerestaurantsstaffapp/databinding/AppBarMainBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.AppBarMainBinding
+com/example/multiplerestaurantsstaffapp/ui/slideshow/SlideshowViewModel.java
+ com.example.multiplerestaurantsstaffapp.ui.slideshow.SlideshowViewModel
+com/example/multiplerestaurantsstaffapp/databinding/ContentMainBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.ContentMainBinding
+com/example/multiplerestaurantsstaffapp/BuildConfig.java
+ com.example.multiplerestaurantsstaffapp.BuildConfig
+com/example/multiplerestaurantsstaffapp/ui/home/HomeFragment.java
+ com.example.multiplerestaurantsstaffapp.ui.home.HomeFragment
+ com.example.multiplerestaurantsstaffapp.ui.home.HomeFragment$1
+com/example/multiplerestaurantsstaffapp/databinding/NavHeaderMainBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.NavHeaderMainBinding
+com/example/multiplerestaurantsstaffapp/ui/slideshow/SlideshowFragment.java
+ com.example.multiplerestaurantsstaffapp.ui.slideshow.SlideshowFragment
+ com.example.multiplerestaurantsstaffapp.ui.slideshow.SlideshowFragment$1
+com/example/multiplerestaurantsstaffapp/Common/Common.java
+ com.example.multiplerestaurantsstaffapp.Common.Common
+com/example/multiplerestaurantsstaffapp/HomeActivity.java
+ com.example.multiplerestaurantsstaffapp.HomeActivity
+ com.example.multiplerestaurantsstaffapp.HomeActivity$1
+com/example/multiplerestaurantsstaffapp/databinding/FragmentUserRegisterDialogBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.FragmentUserRegisterDialogBinding
+com/example/multiplerestaurantsstaffapp/databinding/ActivityHomeBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.ActivityHomeBinding
+com/example/multiplerestaurantsstaffapp/databinding/FragmentHomeBinding.java
+ com.example.multiplerestaurantsstaffapp.databinding.FragmentHomeBinding
+com/example/multiplerestaurantsstaffapp/EnterIPAddress.java
+ com.example.multiplerestaurantsstaffapp.EnterIPAddress
+ com.example.multiplerestaurantsstaffapp.EnterIPAddress$1
+ com.example.multiplerestaurantsstaffapp.EnterIPAddress$2
+com/example/multiplerestaurantsstaffapp/EventBus/OwnerRegisterEvent.java
+ com.example.multiplerestaurantsstaffapp.EventBus.OwnerRegisterEvent

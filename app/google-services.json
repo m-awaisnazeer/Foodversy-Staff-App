@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "240590663273",
+    "firebase_url": "https://multple-restaurant-system.firebaseio.com",
+    "project_id": "multple-restaurant-system",
+    "storage_bucket": "multple-restaurant-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240590663273:android:8b967c93f3be7bb150bcf8",
+        "android_client_info": {
+          "package_name": "com.comunisolve.newmultiplerestaurantsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240590663273-c5opsddi4v2ml7u7311huq051paf5m8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.comunisolve.newmultiplerestaurantsapp",
+            "certificate_hash": "c35ad1153f447211328320658a5e9d9e1e4b3739"
+          }
+        },
+        {
+          "client_id": "240590663273-enkkv1vtqhdg4q8i40iut98cfnskcimo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0wo2ZqpPP80IGCMX-JpuBNKBqK8icCpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240590663273-enkkv1vtqhdg4q8i40iut98cfnskcimo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240590663273:android:dbc0512fd24fb10550bcf8",
+        "android_client_info": {
+          "package_name": "com.example.multiplerestaurantsstaffapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240590663273-enkkv1vtqhdg4q8i40iut98cfnskcimo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0wo2ZqpPP80IGCMX-JpuBNKBqK8icCpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240590663273-enkkv1vtqhdg4q8i40iut98cfnskcimo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

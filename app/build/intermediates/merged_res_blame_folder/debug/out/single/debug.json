@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_exit_to_app_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_exit_to_app_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_chickena.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_chickena.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_content_main.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_background.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_medifoods_delights.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_medifoods_delights.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_fish.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_fish.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_favorite.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_favorite.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_local_phone_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_local_phone_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_primary_remove_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_primary_remove_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_snacks.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_snacks.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_un_favorite.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_un_favorite.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_rounded_corners.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/rounded_corners.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_account_circle_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_account_circle_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_g_logo.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/g_logo.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_date_range_grey_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_date_range_grey_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_menu_gallery.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_western_soup.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_western_soup.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_side_nav_bar.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/side_nav_bar.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_drag_handle_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_drag_handle_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_app_bar_main.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_phone_logo.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/phone_logo.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_grey_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_grey_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_activity_start.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_start.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_app_icon.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/app_icon.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_eastern_soup.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_eastern_soup.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_menu_camera.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_activity_enter_i_p_address.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_enter_i_p_address.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_restaurant.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_restaurant.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_list_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_list_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/menu_activity_main_drawer.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_info_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/menu_home.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/menu/home.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_fragment_user_register_dialog.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_user_register_dialog.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_chinese.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_chinese.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_login_methods_firebase_ui.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/login_methods_firebase_ui.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_pasta.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_pasta.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_menu_camera.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_pizza.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_pizza.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_splash_screen.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/splash_screen.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_white_shopping_cart_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_white_shopping_cart_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_ch.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_ch.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_fragment_gallery.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_add_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_border_button.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/border_button.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_quantity_background_textview.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/quantity_background_textview.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_nav_header_main.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_history_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_history_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_fragment_slideshow.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_baseline_attach_money_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_attach_money_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_clear_primary_24.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_clear_primary_24.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_menu_slideshow.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_phone_auth.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/phone_auth.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_menu_gallery.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_menu_slideshow.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_sandwiches.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_sandwiches.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-v24_menu_finger_food.png.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/drawable-v24/menu_finger_food.png"
+    }
+]
