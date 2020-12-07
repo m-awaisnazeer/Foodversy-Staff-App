@@ -1,15 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] /home/ali/.gradle/caches/transforms-2/files-2.1/a7a50454b95fba95c45c1e2437567c4b/jetified-viewbinding-4.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.1] /home/ali/.gradle/caches/transforms-2/files-2.1/5814e308a44b712d9008f5451cdccb91/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.1] /home/ali/.gradle/caches/transforms-2/files-2.1/eec5aa92a45c3745402f349b5c130192/navigation-ui-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.1] /home/ali/.gradle/caches/transforms-2/files-2.1/43d5f4861d35ba2002427f7394e0d04d/jetified-firebase-ui-auth-6.2.1/AndroidManifest.xml:2:1-109:12
 MERGED from [com.karumi:dexter:6.1.0] /home/ali/.gradle/caches/transforms-2/files-2.1/ab6524e7e66bc605e4f86d12b0376099/jetified-dexter-6.1.0/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.2.1] /home/ali/.gradle/caches/transforms-2/files-2.1/097f089625397e498c73fddd794048ee/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.florent37:expansionpanel:1.2.2] /home/ali/.gradle/caches/transforms-2/files-2.1/cf28a86ee17deb74c2b4ba2d4dfed664/jetified-expansionpanel-1.2.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/ali/.gradle/caches/transforms-2/files-2.1/47279c9445ff50f9f5354b77176887e7/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.nex3z:notification-badge:1.0.4] /home/ali/.gradle/caches/transforms-2/files-2.1/ac63841bf39bc949c3a106bebb509137/jetified-notification-badge-1.0.4/AndroidManifest.xml:2:1-13:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /home/ali/.gradle/caches/transforms-2/files-2.1/6468f519f86ebb9f568d5886d6e23f83/jetified-library-1.6.1/AndroidManifest.xml:6:1-15:12
@@ -94,20 +95,20 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] /home/ali/.gradle/caches/transforms-2
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ali/.gradle/caches/transforms-2/files-2.1/83e8bdeabe71de3008b1db104cfbc900/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/ali/.gradle/caches/transforms-2/files-2.1/90754ffecad5268d8b10c371c6f4834b/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/ali/.gradle/caches/transforms-2/files-2.1/e546c13f9ca3e845bc53b815c7546b40/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:3:5-54
 		INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -120,7 +121,7 @@ ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/m
 	android:name
 		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:8:5-29:19
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:8:5-32:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.1] /home/ali/.gradle/caches/transforms-2/files-2.1/43d5f4861d35ba2002427f7394e0d04d/jetified-firebase-ui-auth-6.2.1/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.1] /home/ali/.gradle/caches/transforms-2/files-2.1/43d5f4861d35ba2002427f7394e0d04d/jetified-firebase-ui-auth-6.2.1/AndroidManifest.xml:15:5-107:19
 MERGED from [com.karumi:dexter:6.1.0] /home/ali/.gradle/caches/transforms-2/files-2.1/ab6524e7e66bc605e4f86d12b0376099/jetified-dexter-6.1.0/AndroidManifest.xml:26:5-30:19
@@ -198,37 +199,43 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/ali/.gradle/cache
 	android:allowBackup
 		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:15:9-65
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:14:9-65
 	android:usesCleartextTraffic
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:14:9-44
-activity#com.example.multiplerestaurantsstaffapp.HomeActivity
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:16:9-19:93
-	android:label
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:18:13-56
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:15:9-44
+activity#com.example.multiplerestaurantsstaffapp.ui.OrderDetailActivity.OrderDetailActivity
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:16:9-17:93
 	android:theme
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:19:13-81
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:17:13-81
 	android:name
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:17:13-41
-activity#com.example.multiplerestaurantsstaffapp.StartActivity
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:20:9-21:83
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:16:19-77
+activity#com.example.multiplerestaurantsstaffapp.HomeActivity
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:18:9-21:84
+	android:label
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:20:13-56
 	android:theme
 		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:21:13-81
 	android:name
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:20:19-48
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:19:13-41
+activity#com.example.multiplerestaurantsstaffapp.StartActivity
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:22:9-24:84
+	android:theme
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:24:13-81
+	android:name
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:23:13-42
 activity#com.example.multiplerestaurantsstaffapp.EnterIPAddress
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:22:9-28:20
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:22:19-49
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:25:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/AndroidManifest.xml
@@ -245,6 +252,8 @@ MERGED from [com.karumi:dexter:6.1.0] /home/ali/.gradle/caches/transforms-2/file
 MERGED from [com.karumi:dexter:6.1.0] /home/ali/.gradle/caches/transforms-2/files-2.1/ab6524e7e66bc605e4f86d12b0376099/jetified-dexter-6.1.0/AndroidManifest.xml:22:5-24:41
 MERGED from [com.google.android.material:material:1.2.1] /home/ali/.gradle/caches/transforms-2/files-2.1/097f089625397e498c73fddd794048ee/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] /home/ali/.gradle/caches/transforms-2/files-2.1/097f089625397e498c73fddd794048ee/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.florent37:expansionpanel:1.2.2] /home/ali/.gradle/caches/transforms-2/files-2.1/cf28a86ee17deb74c2b4ba2d4dfed664/jetified-expansionpanel-1.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.florent37:expansionpanel:1.2.2] /home/ali/.gradle/caches/transforms-2/files-2.1/cf28a86ee17deb74c2b4ba2d4dfed664/jetified-expansionpanel-1.2.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/ali/.gradle/caches/transforms-2/files-2.1/47279c9445ff50f9f5354b77176887e7/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/ali/.gradle/caches/transforms-2/files-2.1/47279c9445ff50f9f5354b77176887e7/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.nex3z:notification-badge:1.0.4] /home/ali/.gradle/caches/transforms-2/files-2.1/ac63841bf39bc949c3a106bebb509137/jetified-notification-badge-1.0.4/AndroidManifest.xml:7:5-9:41

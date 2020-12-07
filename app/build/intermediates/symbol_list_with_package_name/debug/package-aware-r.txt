@@ -36,6 +36,8 @@ anim fragment_open_enter
 anim fragment_open_exit
 anim fui_slide_in_right
 anim fui_slide_out_left
+anim item_animation_from_left
+anim layout_item_from_left
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -397,6 +399,13 @@ attr expandedTitleMarginEnd
 attr expandedTitleMarginStart
 attr expandedTitleMarginTop
 attr expandedTitleTextAppearance
+attr expansion_expanded
+attr expansion_headerIndicator
+attr expansion_headerIndicatorRotationCollapsed
+attr expansion_headerIndicatorRotationExpanded
+attr expansion_layout
+attr expansion_openOnlyOne
+attr expansion_toggleOnClick
 attr extendMotionSpec
 attr extendedFloatingActionButtonStyle
 attr fabAlignmentMode
@@ -1773,6 +1782,7 @@ drawable ic_baseline_local_phone_24
 drawable ic_baseline_shopping_cart_24
 drawable ic_clear_primary_24
 drawable ic_exit_to_app_24
+drawable ic_expansion_header_indicator_grey_24dp
 drawable ic_favorite
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1788,6 +1798,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_primary_remove_24
 drawable ic_restaurant
+drawable ic_save_white_24
 drawable ic_un_favorite
 drawable ic_white_shopping_cart_24
 drawable indicator_circle_selected
@@ -1913,6 +1924,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_save
 id action_settings
 id action_text
 id actions
@@ -2043,6 +2055,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id expensionLayout
 id fab
 id fade
 id fill
@@ -2070,6 +2083,7 @@ id group_divider
 id grouping
 id groups
 id header
+id headerIndicator
 id header_text
 id heading
 id hideable
@@ -2085,6 +2099,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id img_food_image
 id info
 id invisible
 id invisible_frame
@@ -2184,11 +2199,14 @@ id phone_number
 id pin
 id position
 id postLayout
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler_order_detail
+id recycler_view
 id registerTV
 id resend_barrier
 id resend_code
@@ -2246,6 +2264,7 @@ id space_around
 id space_between
 id space_evenly
 id spacer
+id spinner_status
 id spline
 id split_action_bar
 id spread
@@ -2287,7 +2306,6 @@ id textSpacerNoTitle
 id textStart
 id textView
 id text_gallery
-id text_home
 id text_input_end_icon
 id text_input_start_icon
 id text_slideshow
@@ -2321,6 +2339,18 @@ id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id tv
 id tv_badge_text
+id txt_add_on
+id txt_food_name
+id txt_food_quantitiy
+id txt_food_size
+id txt_num_of_item
+id txt_order_address
+id txt_order_date
+id txt_order_number
+id txt_order_phone
+id txt_order_processing
+id txt_order_total_price
+id txt_payment_method
 id txt_user_address
 id unchecked
 id uniform
@@ -2408,6 +2438,7 @@ layout abc_tooltip
 layout activity_enter_i_p_address
 layout activity_home
 layout activity_main
+layout activity_order_detail
 layout activity_start
 layout app_bar_main
 layout browser_actions_context_menu_page
@@ -2461,6 +2492,10 @@ layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
 layout item_slide_image
+layout layout_loading_item
+layout layout_order
+layout layout_order_detail_item
+layout layout_order_detail_item_addon
 layout login_methods_firebase_ui
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2528,6 +2563,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu activity_main_drawer
 menu home
+menu order_detail_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
@@ -2560,6 +2596,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_save
 string action_settings
 string app_name
 string appbar_scrolling_view_behavior
@@ -2703,6 +2740,7 @@ string material_slider_range_start
 string menu_gallery
 string menu_home
 string menu_slideshow
+string money_sign
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2745,6 +2783,7 @@ string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
+string order_detail
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3560,6 +3599,12 @@ styleable Dialog DialogSpotColor DialogSpotCount DialogTitleAppearance DialogTit
 styleable DialogFragmentNavigator android_name
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable DrawerLayout elevation
+styleable ExpansionHeader expansion_headerIndicator expansion_headerIndicatorRotationCollapsed expansion_headerIndicatorRotationExpanded expansion_layout expansion_toggleOnClick
+styleable ExpansionLayout expansion_expanded
+styleable ExpansionsViewGroupConstraintLayout expansion_openOnlyOne
+styleable ExpansionsViewGroupFrameLayout expansion_openOnlyOne
+styleable ExpansionsViewGroupLinearLayout expansion_openOnlyOne
+styleable ExpansionsViewGroupRelativeLayout expansion_openOnlyOne
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
 styleable FlexboxLayout alignContent alignItems dividerDrawable dividerDrawableHorizontal dividerDrawableVertical flexDirection flexWrap justifyContent maxLine showDivider showDividerHorizontal showDividerVertical

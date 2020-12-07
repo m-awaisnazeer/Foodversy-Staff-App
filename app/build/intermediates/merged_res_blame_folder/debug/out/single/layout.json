@@ -16,6 +16,14 @@
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/app_bar_main.xml"
     },
     {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_loading_item.xml",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/layout_loading_item.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_order_detail_item_addon.xml",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/layout_order_detail_item_addon.xml"
+    },
+    {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_home.xml"
     },
@@ -28,12 +36,16 @@
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_start.xml"
     },
     {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_slideshow.xml",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_slideshow.xml"
+    },
+    {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_enter_i_p_address.xml",
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_enter_i_p_address.xml"
     },
     {
-        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_slideshow.xml",
-        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_slideshow.xml"
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_order_detail_item.xml",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/layout_order_detail_item.xml"
     },
     {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
@@ -44,8 +56,16 @@
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_user_register_dialog.xml"
     },
     {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_order_detail.xml",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/activity_order_detail.xml"
+    },
+    {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_order.xml",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/layout_order.xml"
     },
     {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",

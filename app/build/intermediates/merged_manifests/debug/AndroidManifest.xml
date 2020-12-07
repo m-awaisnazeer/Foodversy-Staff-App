@@ -28,6 +28,9 @@
         android:theme="@style/Theme.MultipleRestaurantsStaffApp"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.multiplerestaurantsstaffapp.ui.OrderDetailActivity.OrderDetailActivity"
+            android:theme="@style/Theme.MultipleRestaurantsStaffApp.NoActionBar" />
+        <activity
             android:name="com.example.multiplerestaurantsstaffapp.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.MultipleRestaurantsStaffApp.NoActionBar" />
