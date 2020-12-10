@@ -4,7 +4,17 @@
             "outputFile": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/9ad1d3fafe485a45b52dd5d8b8e80135/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/bdad276e0a56eb7d23b67fb0cd111a1e/appcompat-1.2.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/31cd5ba1ed110f7808505a03dd3fdd70/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
-                    }
-                },
-                {
-                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/6108e9e5d5705a54c6ed34919d358b57/appcompat-1.2.0/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

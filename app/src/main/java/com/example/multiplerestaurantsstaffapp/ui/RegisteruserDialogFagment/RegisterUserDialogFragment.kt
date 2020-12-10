@@ -22,6 +22,7 @@ import com.example.multiplerestaurantsstaffapp.R
 import com.example.multiplerestaurantsstaffapp.Retrofit.IMyRestaurantAPI
 import com.example.multiplerestaurantsstaffapp.Retrofit.RetrofitClient
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.iid.FirebaseInstanceId
 import dmax.dialog.SpotsDialog
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -76,85 +77,76 @@ class RegisterUserDialogFragment : DialogFragment() {
             if (current_user_id == null || TextUtils.isEmpty(current_user_id)) {
 
             } else {
-//                disposable.add(myRestaurantAPI!!.updateUserInfo(Common.API_KEY,
-//                        editUserPhone.getText().toString(),
-//                        editUserName.getText().toString(),
-//                        editUserAddress.getText().toString(),
-//                        current_user_id)
-//                        .subscribeOn(Schedulers.io())
-//                        .observeOn(AndroidSchedulers.mainThread())
-//                        .subscribe({ updateUserModel: UpdateUserModel ->
-//                            if (updateUserModel.isSuccess) {
-//                                disposable.add(myRestaurantAPI!!.getUser(Common.API_KEY, current_user_id)
-//                                        .subscribeOn(Schedulers.io())
-//                                        .observeOn(AndroidSchedulers.mainThread())
-//                                        .subscribe({ userModel: UserModel ->
-//                                            if (userModel.isSuccess) {
-//                                                getDialog()!!.dismiss()
-//                                                Common.currentUser = userModel.result[0]
-//                                                startActivity(Intent(requireContext(), HomeActivity::class.java))
-//                                                requireActivity().finish()
-//                                            } else {
-//                                                Toast.makeText(requireContext(), "[GET USER RESULT]" + userModel.message, Toast.LENGTH_SHORT).show()
-//                                            }
-//                                            dialog!!.dismiss()
-//                                        }
-//                                        ) { throwable: Throwable ->
-//                                            dialog!!.dismiss()
-//                                            Toast.makeText(requireContext(), "[GET USER ]" + throwable.message, Toast.LENGTH_SHORT).show()
-//                                        })
-//                            } else {
-//                                dialog!!.dismiss()
-//                                Toast.makeText(requireContext(), "[UPDATE USER API RETURN]" + updateUserModel.message, Toast.LENGTH_SHORT).show()
-//                            }
-//                        }
-//                        ) { throwable: Throwable ->
-//                            dialog!!.dismiss()
-//                            Toast.makeText(requireContext(), "[Update User API]" + throwable.message, Toast.LENGTH_SHORT).show()
-//                        })
+                FirebaseInstanceId.getInstance().instanceId.addOnFailureListener {
+                    Toast.makeText(requireContext(), "" + it.message, Toast.LENGTH_SHORT).show()
 
-                disposable.add(myRestaurantAPI!!.updateRestaurantOwnerModel(Common.API_KEY,
-                        editUserPhone.getText().toString(),
-                        editUserName.getText().toString(),
-                        current_user_id!!)
-                        .subscribeOn(Schedulers.io())
-                        .observeOn(AndroidSchedulers.mainThread())
-                        .subscribe({ updateRestaurantOwnerModel: UpdateRestaurantOwnerModel ->
-                            if (updateRestaurantOwnerModel.isSuccess) {
+                }.addOnCompleteListener {
+                    it.getResult()!!.token
+                    Toast.makeText(requireContext(), "" + it.result?.token, Toast.LENGTH_SHORT).show()
 
-                                disposable.add(myRestaurantAPI!!.getRestaurantOwner(Common.API_KEY,
-                                        current_user_id!!)
-                                        .subscribeOn(Schedulers.io())
-                                        .observeOn(AndroidSchedulers.mainThread())
-                                        .subscribe({ restaurantOwnerModel: RestaurantOwnerModel ->
-                                            if (restaurantOwnerModel.isSuccess) {
+                    disposable.add(myRestaurantAPI!!.updateTokenToServer(
+                            Common.API_KEY,
+                            current_user_id,
+                            it.getResult()?.token
+                    ).subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe({
 
-                                                getDialog()!!.dismiss()
-                                                Common.currentRestaurantOwner = restaurantOwnerModel.result[0]
 
-                                                EventBus.getDefault().postSticky(OwnerRegisterEvent(true))
-                                            } else {
-                                                getDialog()!!.dismiss()
-                                                EventBus.getDefault().postSticky(OwnerRegisterEvent(false))
-                                                Toast.makeText(requireContext(), "Success: Not registered", Toast.LENGTH_SHORT).show()
+                            }, {
+                                Toast.makeText(requireContext(), "[UPDATE TOKEN]" + it.message, Toast.LENGTH_SHORT).show()
 
-                                            }
+                            }))
 
-                                            dialog!!.dismiss()
-                                        }, { throwable: Throwable? ->
-                                            dialog!!.dismiss()
-                                            Toast.makeText(requireContext(), "[GET USER API] " + throwable!!.message, Toast.LENGTH_LONG).show()
-                                        }))
 
-                            } else {
-                                Toast.makeText(requireContext(), "[GET USER RESULT]" + updateRestaurantOwnerModel.message, Toast.LENGTH_SHORT).show()
-                            }
-                            dialog!!.dismiss()
 
-                        }, { throwable: Throwable ->
-                            dialog!!.dismiss()
-                            Toast.makeText(requireContext(), "[Update User API]" + throwable.message, Toast.LENGTH_SHORT).show()
-                        }))
+
+
+                    disposable.add(myRestaurantAPI!!.updateRestaurantOwnerModel(Common.API_KEY,
+                            editUserPhone.getText().toString(),
+                            editUserName.getText().toString(),
+                            current_user_id!!)
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe({ updateRestaurantOwnerModel: UpdateRestaurantOwnerModel ->
+                                if (updateRestaurantOwnerModel.isSuccess) {
+
+                                    disposable.add(myRestaurantAPI!!.getRestaurantOwner(Common.API_KEY,
+                                            current_user_id!!)
+                                            .subscribeOn(Schedulers.io())
+                                            .observeOn(AndroidSchedulers.mainThread())
+                                            .subscribe({ restaurantOwnerModel: RestaurantOwnerModel ->
+                                                if (restaurantOwnerModel.isSuccess) {
+
+                                                    getDialog()!!.dismiss()
+                                                    Common.currentRestaurantOwner = restaurantOwnerModel.result[0]
+
+                                                    EventBus.getDefault().postSticky(OwnerRegisterEvent(true))
+                                                } else {
+                                                    getDialog()!!.dismiss()
+                                                    EventBus.getDefault().postSticky(OwnerRegisterEvent(false))
+                                                    Toast.makeText(requireContext(), "Success: Not registered", Toast.LENGTH_SHORT).show()
+
+                                                }
+
+                                                dialog!!.dismiss()
+                                            }, { throwable: Throwable? ->
+                                                dialog!!.dismiss()
+                                                Toast.makeText(requireContext(), "[GET USER API] " + throwable!!.message, Toast.LENGTH_LONG).show()
+                                            }))
+
+                                } else {
+                                    Toast.makeText(requireContext(), "[GET USER RESULT]" + updateRestaurantOwnerModel.message, Toast.LENGTH_SHORT).show()
+                                }
+                                dialog!!.dismiss()
+
+                            }, { throwable: Throwable ->
+                                dialog!!.dismiss()
+                                Toast.makeText(requireContext(), "[Update User API]" + throwable.message, Toast.LENGTH_SHORT).show()
+                            }))
+                }
+
+
             }
         }
 

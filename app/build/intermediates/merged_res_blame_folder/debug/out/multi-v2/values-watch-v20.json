@@ -4,7 +4,7 @@
             "outputFile": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/e732a2f5b71ba1195f7f65fca96b1399/jetified-play-services-auth-17.0.0/res/values-watch-v20/values.xml",
+                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/9f788e6a01e05c77e526d738f89a687c/jetified-play-services-auth-17.0.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/6108e9e5d5705a54c6ed34919d358b57/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/bdad276e0a56eb7d23b67fb0cd111a1e/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

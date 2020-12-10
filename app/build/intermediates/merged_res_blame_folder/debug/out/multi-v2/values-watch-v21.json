@@ -4,7 +4,7 @@
             "outputFile": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/6108e9e5d5705a54c6ed34919d358b57/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/bdad276e0a56eb7d23b67fb0cd111a1e/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

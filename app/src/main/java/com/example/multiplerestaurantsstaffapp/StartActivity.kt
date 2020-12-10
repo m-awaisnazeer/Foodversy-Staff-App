@@ -19,8 +19,11 @@ import com.example.multiplerestaurantsstaffapp.ui.RegisteruserDialogFagment.Regi
 import com.firebase.ui.auth.AuthMethodPickerLayout
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
+import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.iid.FirebaseInstanceId
+import com.google.firebase.iid.InstanceIdResult
 import com.karumi.dexter.Dexter
 import com.karumi.dexter.PermissionToken
 import com.karumi.dexter.listener.PermissionDeniedResponse
@@ -28,11 +31,11 @@ import com.karumi.dexter.listener.PermissionGrantedResponse
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
 import dmax.dialog.SpotsDialog
+import io.paperdb.Paper
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import org.greenrobot.eventbus.EventBus
-import org.greenrobot.eventbus.MainThreadSupport
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import java.util.*
@@ -81,6 +84,7 @@ class StartActivity : AppCompatActivity() {
     }
 
     private fun init() {
+        Paper.init(this)
 
         dialog = SpotsDialog.Builder().setContext(this).setCancelable(false).build()
         myRestaurantAPI = RetrofitClient.getInstance(Common.API_RESTAURANT_ENDPOINT).create(IMyRestaurantAPI::class.java)
@@ -111,15 +115,28 @@ class StartActivity : AppCompatActivity() {
                 .withPermission(Manifest.permission.ACCESS_FINE_LOCATION)
                 .withListener(object : PermissionListener {
                     override fun onPermissionGranted(permissionGrantedResponse: PermissionGrantedResponse) {
-                        val user: FirebaseUser?
-                        user = FirebaseAuth.getInstance().currentUser
-                        if (user != null) {
-                            //dialog!!.show()
-                            showRegisterLayout(user)
-                        } else {
+
+                        FirebaseInstanceId.getInstance().instanceId
+                                .addOnFailureListener {
+                                    Toast.makeText(this@StartActivity, "Get Token" + it.message, Toast.LENGTH_SHORT).show()
+
+                                }.addOnCompleteListener {
+
+                                    if (it.isSuccessful) {
+                                        Log.d(TAG, "onPermissionGranted: "+it.getResult()?.token)
+                                        val user: FirebaseUser?
+                                        user = FirebaseAuth.getInstance().currentUser
+                                        if (user != null) {
+                                            //dialog!!.show()
+                                            Paper.book().write(Common.REMEMBER_FBID, user.uid)
+                                            showRegisterLayout(user, it)
+                                        } else {
 //                            startActivity(Intent(this@StartActivity, MainActivity::class.java))
 //                            finish()
-                        }
+                                        }
+                                    }
+                                }
+
                     }
 
                     override fun onPermissionDenied(permissionDeniedResponse: PermissionDeniedResponse) {
@@ -132,58 +149,53 @@ class StartActivity : AppCompatActivity() {
 
     }
 
-    private fun showRegisterLayout(user: FirebaseUser) {
-//        compositeDisposable.add(myRestaurantAPI!!.getUser(Common.API_KEY, user.uid)
-//                .subscribeOn(Schedulers.io())
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .subscribe({ userModel: UserModel ->
-//                    if (userModel.isSuccess) {
-//                        Toast.makeText(this@StartActivity, "Success" + userModel.result[0].name, Toast.LENGTH_SHORT).show()
-//                        Common.currentUser = userModel.result[0]
-//                        val intent = Intent(this@StartActivity, HomeActivity::class.java)
-//                        startActivity(intent)
-//                        finish()
-//                    } else {
-//                        Toast.makeText(this@StartActivity, "Success: Not registered", Toast.LENGTH_SHORT).show()
-//                        alertDialogFragment.show(fm, "fragment_edit_name")
-//                        alertDialogFragment.isCancelable = false
-//                    }
-//                    dialog!!.dismiss()
-//                }
-//                ) { throwable: Throwable ->
-//                    dialog!!.dismiss()
-//                    Toast.makeText(this@StartActivity, "[GET USER API] " + throwable.message, Toast.LENGTH_LONG).show()
-//                    Log.d(TAG, "onPermissionGranted: " + throwable.message)
-//                })
+    private fun showRegisterLayout(user: FirebaseUser, task: Task<InstanceIdResult>) {
+        Paper.book().write(Common.REMEMBER_FBID, user.uid)
 
-        compositeDisposable.add(myRestaurantAPI!!.getRestaurantOwner(
+        Toast.makeText(this@StartActivity, "" + task.result?.token, Toast.LENGTH_SHORT).show()
+
+        compositeDisposable.add(myRestaurantAPI!!.updateTokenToServer(
                 Common.API_KEY,
-                FirebaseAuth.getInstance().uid)
+                user.uid,
+                task.getResult()?.token
+        )
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe({ restaurantOwnerModel: RestaurantOwnerModel ->
-                    if (restaurantOwnerModel.isSuccess) {
-                        Common.currentRestaurantOwner = restaurantOwnerModel.result[0]
+                .subscribe({
+                    compositeDisposable.add(myRestaurantAPI!!.getRestaurantOwner(
+                            Common.API_KEY,
+                            FirebaseAuth.getInstance().uid)
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe({ restaurantOwnerModel: RestaurantOwnerModel ->
+                                if (restaurantOwnerModel.isSuccess) {
+                                    Common.currentRestaurantOwner = restaurantOwnerModel.result[0]
 
-                        if (Common.currentRestaurantOwner.isStatus) {
-                            val intent = Intent(this@StartActivity, HomeActivity::class.java)
-                            startActivity(intent)
-                            finish()
-                        } else {
-                            Toast.makeText(this@StartActivity, "You Don't have permission to Sign In", Toast.LENGTH_SHORT).show()
-                        }
-                    } else {
-                        Toast.makeText(this@StartActivity, "Success: Not registered", Toast.LENGTH_SHORT).show()
-                        registerUserDialogFragment.show(fm, "fragment_edit_name")
-                        registerUserDialogFragment.isCancelable = false
-                    }
+                                    if (Common.currentRestaurantOwner.isStatus) {
+                                        val intent = Intent(this@StartActivity, HomeActivity::class.java)
+                                        startActivity(intent)
+                                        finish()
+                                    } else {
+                                        Toast.makeText(this@StartActivity, "You Don't have permission to Sign In", Toast.LENGTH_SHORT).show()
+                                    }
+                                } else {
+                                    Toast.makeText(this@StartActivity, "Success: Not registered", Toast.LENGTH_SHORT).show()
+                                    registerUserDialogFragment.show(fm, "fragment_edit_name")
+                                    registerUserDialogFragment.isCancelable = false
+                                }
 
-                    dialog!!.dismiss()
-                }, { throwable: Throwable? ->
-                    dialog!!.dismiss()
-                    Toast.makeText(this@StartActivity, "[GET USER API] " + throwable!!.message, Toast.LENGTH_LONG).show()
-                    Log.d(TAG, "onPermissionGranted: " + throwable.message)
+                                dialog!!.dismiss()
+                            }, { throwable: Throwable? ->
+                                dialog!!.dismiss()
+                                Toast.makeText(this@StartActivity, "[GET USER API] " + throwable!!.message, Toast.LENGTH_LONG).show()
+                                Log.d(TAG, "onPermissionGranted: " + throwable.message)
+                            }))
+                }, {
+                    Toast.makeText(this@StartActivity, "[UPDATE TOKEN] " + it!!.message, Toast.LENGTH_LONG).show()
+
                 }))
+
+
     }
 
     private fun showLogInLayout() {
@@ -237,7 +249,7 @@ class StartActivity : AppCompatActivity() {
                 registerUserDialogFragment.dismiss()
                 Toast.makeText(this@StartActivity, "You Don't have permission to Sign In", Toast.LENGTH_SHORT).show()
             }
-        }else{
+        } else {
             registerUserDialogFragment.dismiss()
 
         }

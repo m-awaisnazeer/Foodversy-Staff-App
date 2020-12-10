@@ -5,6 +5,7 @@ package com.example.multiplerestaurantsstaffapp.Retrofit;
 import com.example.multiplerestaurantsstaffapp.Model.MaxOrderModel;
 import com.example.multiplerestaurantsstaffapp.Model.OrderModel;
 import com.example.multiplerestaurantsstaffapp.Model.RestaurantOwnerModel;
+import com.example.multiplerestaurantsstaffapp.Model.TokenModel;
 import com.example.multiplerestaurantsstaffapp.Model.UpdateRestaurantOwnerModel;
 import com.example.multiplerestaurantsstaffapp.Model.OrderDetailModel;
 
@@ -40,7 +41,11 @@ public interface IMyRestaurantAPI {
 
     @GET("orderdetailbyrestaurant")
     Observable<OrderDetailModel> getOrderDetail(@Query("key") String key,
-                                                   @Query("orderId") int orderId);
+                                                @Query("orderId") int orderId);
+
+    @GET("token")
+    Observable<TokenModel> getToken(@Query("key") String key,
+                                    @Query("fbid") String fbid);
 
     /*
         ########### POST #############
@@ -52,4 +57,12 @@ public interface IMyRestaurantAPI {
                                                                       @Field("userPhone") String userPhone,
                                                                       @Field("userName") String userName,
                                                                       @Field("fbid") String fbid);
+
+
+    @POST("token")
+    @FormUrlEncoded
+    Observable<TokenModel> updateTokenToServer(@Field("key") String key,
+                                               @Field("fbid") String fbid,
+                                               @Field("token") String token
+    );
 }

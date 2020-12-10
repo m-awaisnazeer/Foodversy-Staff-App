@@ -4,7 +4,7 @@
             "outputFile": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/43d5f4861d35ba2002427f7394e0d04d/jetified-firebase-ui-auth-6.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/home/ali/.gradle/caches/transforms-2/files-2.1/ac0c042b234e1dd7f3f5df9ed6e484ac/jetified-firebase-ui-auth-6.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

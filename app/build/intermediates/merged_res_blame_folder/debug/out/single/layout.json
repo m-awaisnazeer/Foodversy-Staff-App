@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/phone_auth.xml",
-        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/phone_auth.xml"
-    },
-    {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_main.xml",
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/phone_auth.xml",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/phone_auth.xml"
     },
     {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/login_methods_firebase_ui.xml",
