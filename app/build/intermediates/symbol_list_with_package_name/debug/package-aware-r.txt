@@ -1924,8 +1924,8 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_refresh
 id action_save
-id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2596,6 +2596,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_refresh
 string action_save
 string action_settings
 string app_name

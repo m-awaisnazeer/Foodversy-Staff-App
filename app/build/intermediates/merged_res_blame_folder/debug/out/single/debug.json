@@ -104,12 +104,12 @@
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_baseline_info_24.xml"
     },
     {
-        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/menu_home.xml.flat",
-        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/menu/home.xml"
-    },
-    {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/layout_fragment_user_register_dialog.xml.flat",
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/layout/fragment_user_register_dialog.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/menu_home.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/menu/home.xml"
     },
     {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -168,12 +168,12 @@
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_menu_slideshow.xml.flat",
-        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_menu_slideshow.xml"
-    },
-    {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_menu_gallery.xml.flat",
         "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_menu_slideshow.xml.flat",
+        "source": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_menu_slideshow.xml"
     },
     {
         "merged": "/home/ali/AndroidStudioProjects/MultipleRestaurantsStaffApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",

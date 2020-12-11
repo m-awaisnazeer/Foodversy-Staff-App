@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.example.multiplerestaurantsstaffapp"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -7,6 +8,8 @@
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="30" />
+
+    <dist:module dist:instant="true" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />

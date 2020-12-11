@@ -28,6 +28,7 @@ public class Common {
     public  static RestaurantOwner currentRestaurantOwner;
     public static Order currentOrder;
 
+
     public static String convertStatusToString(int orderStatus) {
 
         switch (orderStatus) {
@@ -87,6 +88,10 @@ public class Common {
 
         notificationManager.notify(notiId, notification);
 
+    }
+
+    public static String getTopicChannel(int id) {
+        return new StringBuilder("Restaurant_").append(id).toString();
     }
 
 }
