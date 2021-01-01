@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Order {
     private int order,orderStatus,restaurantId,orderId;
-    private String orderPhone,orderName,orderAddress,transactionId;
+    private String orderPhone,orderName,orderAddress,transactionId,orderFBID;
     private Date orderDate;
     private  boolean cod;
     private Double totalPrice;
@@ -106,4 +106,11 @@ public class Order {
         this.numOfItem = numOfItem;
     }
 
+    public String getOrderFBID() {
+        return orderFBID;
+    }
+
+    public void setOrderFBID(String orderFBID) {
+        this.orderFBID = orderFBID;
+    }
 }

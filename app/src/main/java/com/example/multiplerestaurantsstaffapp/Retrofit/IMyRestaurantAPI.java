@@ -6,6 +6,7 @@ import com.example.multiplerestaurantsstaffapp.Model.MaxOrderModel;
 import com.example.multiplerestaurantsstaffapp.Model.OrderModel;
 import com.example.multiplerestaurantsstaffapp.Model.RestaurantOwnerModel;
 import com.example.multiplerestaurantsstaffapp.Model.TokenModel;
+import com.example.multiplerestaurantsstaffapp.Model.UpdateOrderModel;
 import com.example.multiplerestaurantsstaffapp.Model.UpdateRestaurantOwnerModel;
 import com.example.multiplerestaurantsstaffapp.Model.OrderDetailModel;
 
@@ -14,6 +15,7 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Query;
 
 public interface IMyRestaurantAPI {
@@ -63,6 +65,18 @@ public interface IMyRestaurantAPI {
     @FormUrlEncoded
     Observable<TokenModel> updateTokenToServer(@Field("key") String key,
                                                @Field("fbid") String fbid,
-                                               @Field("token") String token
+                                               @Field("token") String token);
+
+    @PUT("updateOrder")
+    @FormUrlEncoded
+    Observable<UpdateOrderModel> updateOrderStatus(
+            @Field("key") String apiKey,
+            @Field("orderId") int orderId,
+            @Field("orderStatus") int orderStatus
     );
+
+
+//    @GET("token")
+//    Observable<TokenModel> getToken(@Query("key") String key,
+//                                    @Query("fbid") String fbid);
 }

@@ -16,6 +16,8 @@ import com.example.multiplerestaurantsstaffapp.Model.Order;
 import com.example.multiplerestaurantsstaffapp.Model.RestaurantOwner;
 import com.example.multiplerestaurantsstaffapp.R;
 
+import org.jetbrains.annotations.Nullable;
+
 public class Common {
     public static final String NOTIFI_TITLE = "title";
     public static final String NOTIFI_CONTENT = "content";
@@ -25,8 +27,10 @@ public class Common {
     public static final String API_KEY = "1234";
     public static final String REMEMBER_FBID = "REMEMBER_FBID";
     public static final String API_KEY_TAG = "API_KEY";
-    public  static RestaurantOwner currentRestaurantOwner;
+    public static RestaurantOwner currentRestaurantOwner;
     public static Order currentOrder;
+    @Nullable
+    public static String yourToken;
 
 
     public static String convertStatusToString(int orderStatus) {
@@ -46,24 +50,25 @@ public class Common {
 
     public static int convertStatusToIndex(int orderStatus) {
 
-        if (orderStatus == -1){
+        if (orderStatus == -1) {
             return 3;
-        }else
+        } else
             return orderStatus;
     }
+
     public static void showNotification(Context context, int notiId, String title, String body, Intent intent) {
         PendingIntent pendingIntent = null;
 
-        if (pendingIntent != null)
+        if (intent != null)
             pendingIntent = PendingIntent.getActivity(context, notiId, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        String NOTIFICATION_CHANNEL_ID = "foodversy_my_restaurant";
+        String NOTIFICATION_CHANNEL_ID = "foodversy_my_restaurant_staff";
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel notificationChannel = new NotificationChannel(NOTIFICATION_CHANNEL_ID,
                     "Foodversy Notifications", NotificationManager.IMPORTANCE_DEFAULT);
-            notificationChannel.setDescription("Foodversy Client App");
+            notificationChannel.setDescription("Foodversy Staff App");
             notificationChannel.enableLights(true);
             notificationChannel.setLightColor(Color.RED);
             notificationChannel.setVibrationPattern(new long[]{0, 1000, 500, 1000});
@@ -94,4 +99,15 @@ public class Common {
         return new StringBuilder("Restaurant_").append(id).toString();
     }
 
+    public static int convertStringToStatus(String status) {
+        if (status.equals("Placed"))
+            return 0;
+        else if (status.equals("Shipping"))
+            return 1;
+        else if (status.equals("Shipped"))
+            return 2;
+        else if (status.equals("Cancelled"))
+            return -1;
+        return -1;
+    }
 }

@@ -118,7 +118,7 @@ public class OrderDetailActivity extends AppCompatActivity {
 
                 if (orderDetailModel.getResult().size() > 0) {
 
-                    MyOrderDetailAdapter adapter = new MyOrderDetailAdapter(this,orderDetailModel.getResult());
+                    MyOrderDetailAdapter adapter = new MyOrderDetailAdapter(this, orderDetailModel.getResult());
                     recycler_order_detail.setAdapter(adapter);
                 }
             } else {
@@ -162,10 +162,20 @@ public class OrderDetailActivity extends AppCompatActivity {
             finish();
             return true;
         } else if (id == R.id.action_save) {
-            Toast.makeText(this, "Save test", Toast.LENGTH_SHORT).show();
+            updateOrder();
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void updateOrder() {
+
+        viewModel.updateOrderStatue(
+                Common.convertStringToStatus(spinner_status.getSelectedItem().toString())
+        ).observe(this, updateOrderModel -> {
+
+
+        });
     }
 
 

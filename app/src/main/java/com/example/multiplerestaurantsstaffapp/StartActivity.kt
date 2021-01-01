@@ -122,6 +122,7 @@ class StartActivity : AppCompatActivity() {
 
                                 }.addOnCompleteListener {
 
+                                    Common.yourToken = it.result?.token
                                     if (it.isSuccessful) {
                                         Log.d(TAG, "onPermissionGranted: "+it.getResult()?.token)
                                         val user: FirebaseUser?
